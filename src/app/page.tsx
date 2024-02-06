@@ -1,7 +1,16 @@
+import Image from "next/image";
+import homeImage from '../assets/homeImage.png';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Home</h1>
+    <main className="flex items-center flex-col justify-center min-h-[calc(100vh-80px)]">
+      <h2 className="font-medium text-2xl mb-2">Manager your system</h2>
+      <h1 className="font-bold text-3xl mb-8 text-blue-600 md:text-4xl">Services and Customers</h1>
+      <Image
+        src={homeImage}
+        alt="home image"
+        className="max-w-sm md:max-w-xl"
+      />
     </main>
   );
 }
