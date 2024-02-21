@@ -22,7 +22,7 @@ export default function Home() {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link href="/">
           <h1 className="font-bold text-2xl pl-1 hover:tracking-wider duration-300">
-            <span className="text-blue-500">Dev</span> Controler
+            <span className="text-blue-500">Dev</span> Controller
           </h1>
         </Link>
         {status === 'loading' && (

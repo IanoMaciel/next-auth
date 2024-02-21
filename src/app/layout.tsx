@@ -9,7 +9,7 @@ import Header from '@/components/header'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dev Control - Your System Manager",
+  title: "Dev Controller - Your System Manager",
   description: "Manage your customers and services easily",
 };
 
